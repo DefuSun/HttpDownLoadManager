@@ -15,6 +15,7 @@
 		04FE28BE1CF4207500EE89BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE28BC1CF4207500EE89BD /* LaunchScreen.storyboard */; };
 		04FE28C91CF4207500EE89BD /* HttpRequestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE28C81CF4207500EE89BD /* HttpRequestDemoTests.m */; };
 		04FE28D41CF4207500EE89BD /* HttpRequestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE28D31CF4207500EE89BD /* HttpRequestDemoUITests.m */; };
+		04FE28E31CF4210500EE89BD /* HttpDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE28E21CF4210500EE89BD /* HttpDownLoadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04FE28CF1CF4207500EE89BD /* HttpRequestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpRequestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE28D31CF4207500EE89BD /* HttpRequestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequestDemoUITests.m; sourceTree = "<group>"; };
 		04FE28D51CF4207500EE89BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FE28E11CF4210500EE89BD /* HttpDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpDownLoadManager.h; sourceTree = "<group>"; };
+		04FE28E21CF4210500EE89BD /* HttpDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpDownLoadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				04FE28B21CF4207500EE89BD /* AppDelegate.m */,
 				04FE28B41CF4207500EE89BD /* ViewController.h */,
 				04FE28B51CF4207500EE89BD /* ViewController.m */,
+				04FE28E11CF4210500EE89BD /* HttpDownLoadManager.h */,
+				04FE28E21CF4210500EE89BD /* HttpDownLoadManager.m */,
 				04FE28B71CF4207500EE89BD /* Main.storyboard */,
 				04FE28BA1CF4207500EE89BD /* Assets.xcassets */,
 				04FE28BC1CF4207500EE89BD /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				04FE28B61CF4207500EE89BD /* ViewController.m in Sources */,
 				04FE28B31CF4207500EE89BD /* AppDelegate.m in Sources */,
 				04FE28B01CF4207500EE89BD /* main.m in Sources */,
+				04FE28E31CF4210500EE89BD /* HttpDownLoadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
